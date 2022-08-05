@@ -1,0 +1,121 @@
+.cardContainer{
+    background-color: white;
+    width: 270px;
+    
+    margin: 10px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.cardHeader{
+    font-weight: bold;
+    color: darkgray;
+    font-size: small;
+    width: 90%;
+    height: 52px;
+    display: flex;
+    align-items: center;
+}
+.bottom{
+    margin-top: auto;
+    
+}
+.line{
+    width: 90%;
+    color: lightgrey;
+}
+
+.twoCols{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+.rateHolderLeft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    
+}
+
+.rateHolderRight{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    
+}
+
+.rateLabel{
+    color: rgb(121, 120, 120);
+    font-size: small;
+}
+
+
+
+.rate{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+
+.advantages{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: flex-start;
+    justify-self: start;
+}
+
+.adv1
+{
+    margin-bottom: 8px ;
+}
+
+
+.checkBox{
+    color: white !important ;
+    background-color: white;
+    color-scheme: light !important;
+}
+
+.logo{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.logoImg{
+    width: 70%;
+    height: 100%;
+    display: block;
+}
+.url{
+    text-decoration: none;
+    background-color: aqua;
+}
+
+.url:hover {
+    text-decoration: underline;
+    background-color: brown !important;
+}
+
+
+.btn{
+    background-color: rgb(70, 207, 70);
+    color: black;
+    border-color: rgb(70, 207, 70) ;
+    border-radius: 5px;
+    padding: 3px;
+    height: 30px;
+
+}
+
+

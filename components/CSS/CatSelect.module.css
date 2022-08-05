@@ -1,0 +1,39 @@
+.btnHolder{
+    display: flex;
+    margin: 10px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+
+}
+
+.btn{
+    color: grey;
+    padding: 7px;
+    cursor: pointer;
+    margin: 5px;
+    min-width: 135px;
+    text-align: center;
+
+}
+
+.btn:hover{
+    text-decoration: underline;
+    color:  rgb(99, 86, 86);
+}
+
+.btnSelected{
+    color: black;
+    padding: 7px;
+    cursor: pointer;
+    border: 2px solid;
+    border-radius: 10px ;
+    margin: 5px;
+    min-width: 135px;
+    text-align: center;
+
+}
+.btnSelected:hover{
+    text-decoration: underline;
+    color: rgb(99, 86, 86);
+    
+}
